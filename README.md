@@ -40,14 +40,14 @@ The model follows the CreditMetrics methodology by:
 CreditMetrics-Python/
 │
 ├── README.md                  # Project homepage
-├── LICENSE
 ├── requirements.txt
 ├── .gitignore
 │
 ├── data/
-│   ├── sample_portfolio.csv
+│   ├── correlation.csv
+│   ├── thresholds.csv
 │   ├── transition_matrix.csv
-│   ├── recovery_rates.csv
+│   ├── valuation.csv
 │   └── README.md
 │
 ├── src/
