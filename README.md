@@ -59,7 +59,7 @@ CreditMetrics-Python/
 │   └── visualisation.py
 │
 ├── notebook/
-│   └── CreditMetrics_Demo.ipynb
+│   └── creditmetrics_base.ipynb
 │
 ├── tests/
 │   ├── test_portfolio.py
