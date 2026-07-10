@@ -91,7 +91,7 @@ CreditMetrics-Python/
    ```
 
 3. Launch Jupyter Notebook
-- Open creditmetrics_demo.ipynb
+- Open creditmetrics_base.ipynb
 - Run all cells
 
 ## Results
