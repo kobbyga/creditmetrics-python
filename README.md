@@ -28,22 +28,67 @@ The model follows the CreditMetrics methodology by:
 
 ## Portfolio Construction
 
-
+| Name | Ticker | Rating | Principle | Maturity | Coupon |
+|---|---|---|---|---|---|
+| Boyd Gaming Corp | BYD | Baa3| $4,000,000 | 3 Years | 6% |
+| Brinker International Inc | EAT | Baa3| $5,000,000 | 4 Years | 7% |
+| American Airlines Group Inc | BYD | B1| $6,000,000 | 5 Years | 8% |
 
 ## Repository Structure
 
-...
+```
+CreditMetrics-Python/
+│
+├── README.md                  # Project homepage
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── sample_portfolio.csv
+│   ├── transition_matrix.csv
+│   ├── recovery_rates.csv
+│   └── README.md
+│
+├── src/
+│   ├── __init__.py
+│   │
+│   ├── portfolio.py
+│   ├── simulation.py
+│   ├── risk_metrics.py
+│   └── visualisation.py
+│
+├── notebooks/
+│   └── CreditMetrics_Demo.ipynb
+│
+├── tests/
+│   ├── test_portfolio.py
+│   ├── test_transition.py
+│   ├── test_simulation.py
+│   └── test_metrics.py
+│
+├── figures/
+│   ├── loss_distribution.png
+│   ├── migration_matrix.png
+│   ├── convergence.png
+│   └── portfolio_summary.png
+│
+└── docs/
+    ├── methodology.pdf
+    └── assumptions.md
+```
+
 
 ## How to run
 
-1. Clone Repository
-- Run;
-- git clone https://github.com/kobbyga/creditmetrics-python.git
-- cd creditmetrics-python
-- in terminal
-
-2. Install Dependencies
-- pip install -r requirements.txt
+1. Clone the repo and create a virtual environment:
+   ```bash
+   git clone https://github.com/kobbyga/creditmetrics-python.git
+   cd creditmetrics-python
+   python -m venv venv
+   source venv/bin/activate  # Windows: venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 3. Launch Jupyter Notebook
 - Open creditmetrics_demo.ipynb
