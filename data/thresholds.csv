@@ -1,0 +1,12 @@
+Thresholds,,,,,,,,,,
+,,,,,,,,,,
+Boyd Gaming Corp (BYD),,,,American Airlines (AAL),,,,Brinker International (EAT),,
+Year End Rating,Probability of State,Default Threshold,,Year End Rating,Probability of State,Default Threshold,,Year End Rating,Probability of State,Default Threshold
+Aaa,0.00%,,,Aaa,0.00%,,,Aaa,0.00%,
+Aa ,0.00%,,,Aa ,0.00%,,,Aa ,0.00%,
+A,0.00%,,,A,0.00%,,,A,0.00%,
+Baa,0.42%,,,Baa,0.88%,8.1259,,Baa,0.42%,
+Ba ,93.66%,2.6336,,Ba ,18.71%,2.3759,,Ba ,93.66%,2.6336
+B,4.65%,-1.5621,,B,78.67%,0.8566,,B,4.65%,-1.5621
+Caa-C,0.84%,-2.2361,,Caa-C,1.75%,-2.1082,,Caa-C,0.84%,-2.2361
+Default,0.42%,-2.6336,,Default,0.00%,,,Default,0.42%,-2.6336
