@@ -1,3 +1,35 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
+from src.config import (
+    bond_names,
+    CONFIDENCE_LEVELS,
+    NUM_SCENARIOS,
+    cholesky_matrix,
+    rating_thresholds,
+    alpha,
+    beta_param,
+    forward_values,
+    exposures,
+    initial_portfolio_value
+)
+
+from src.simulation import (
+    generate_correlated_returns,
+    map_returns_to_ratings,
+    generate_recovery_rates,
+)
+
+from src.portfolio import (
+    calculate_loan_forward_values,
+    calculate_portfolio_values,
+)
+
+from src.risk_metrics import (
+    calculate_losses,
+    calculate_var_and_es
+)
+
 def stability_analysis(num_replications=50):
     """
     Re-run the full CreditMetrics simulation multiple times
@@ -14,7 +46,7 @@ def stability_analysis(num_replications=50):
         # Run CreditMetrics model
         correlated_returns, _ = generate_correlated_returns(
             NUM_SCENARIOS,
-            L,
+            cholesky_matrix,
             num_bonds=3
         )
 
@@ -26,7 +58,7 @@ def stability_analysis(num_replications=50):
         recovery_rates, _ = generate_recovery_rates(
             NUM_SCENARIOS,
             alpha,
-            beta,
+            beta_param,
             num_bonds=3
         )
 
