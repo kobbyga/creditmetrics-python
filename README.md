@@ -18,10 +18,17 @@ portfolio credit risk using Monte Carlo simulation.
 
 The model follows the CreditMetrics methodology by:
 
-1. Simulating credit rating transitions
-2. Repricing each instrument
-3. Calculating portfolio losses
-4. Estimating EL, UL, VaR and ES
+1. Generate uncorrelated asset returns (50,000 scenarios)
+2. Apply Cholesky matrix to induce correlations
+3. Map correlated returns to rating scenarios using thresholds
+4. Generate uncorrelated recovery rates using Beta distribution
+5. Calculate implied loan forward values (default or non-default)
+6. Aggregate to portfolio values
+7. Calculate Absolute VaR and Expected Shortfall
+
+## Portfolio Construction
+
+
 
 ## Repository Structure
 
