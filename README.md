@@ -37,14 +37,17 @@ The model follows the CreditMetrics methodology by:
 ## How to run
 
 1. Clone Repository
-Run (git clone https://github.com/kobbyga/creditmetrics-python.git
-cd creditmetrics-python) in terminal
+- Run;
+- git clone https://github.com/kobbyga/creditmetrics-python.git
+- cd creditmetrics-python
+- in terminal
 
 2. Install Dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 3. Launch Jupyter Notebook
-Open creditmetrics_demo.ipynb and run all cells
+- Open creditmetrics_demo.ipynb
+- Run all cells
 
 ## Example
 
