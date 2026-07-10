@@ -52,7 +52,7 @@ CreditMetrics-Python/
 │   └── README.md
 │
 ├── notebook/
-│   └── creditmetrics_base.ipynb
+│   └── creditmetrics_demo.ipynb
 │
 ├── src/
 │   ├── __init__.py
