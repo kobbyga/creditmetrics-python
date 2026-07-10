@@ -50,22 +50,21 @@ CreditMetrics-Python/
 │   ├── valuation.csv
 │   └── README.md
 │
-├── src/
-│   ├── __init__.py
-│   │
-│   ├── portfolio.py
-│   ├── simulation.py
-│   ├── risk_metrics.py
-│   └── visualisation.py
-│
 ├── notebook/
 │   └── creditmetrics_base.ipynb
 │
+├── src/
+│   ├── __init__.py
+│   │   config.py
+│   ├── portfolio.py
+│   ├── risk_metrics.py
+│   ├── simulation.py
+│   └── visualisation.py
+│
 ├── tests/
-│   ├── test_portfolio.py
-│   ├── test_transition.py
-│   ├── test_simulation.py
-│   └── test_metrics.py
+│   ├── __init__.py
+│   ├── test_creditmetrics.py
+│   └── test_transition.py
 │
 ├── figures/
 │   ├── loss_distribution.png
