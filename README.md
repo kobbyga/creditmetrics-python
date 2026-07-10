@@ -58,7 +58,7 @@ CreditMetrics-Python/
 │   ├── risk_metrics.py
 │   └── visualisation.py
 │
-├── notebooks/
+├── notebook/
 │   └── CreditMetrics_Demo.ipynb
 │
 ├── tests/
@@ -94,11 +94,11 @@ CreditMetrics-Python/
 - Open creditmetrics_demo.ipynb
 - Run all cells
 
-## Example
+## Results
 
 ...
 
-## Results
+## Figures
 
 (images)
 
