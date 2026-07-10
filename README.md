@@ -96,12 +96,18 @@ CreditMetrics-Python/
 
 ## Results
 
-...
+| Confidence Interval | Absolute VaR ($) | Absolute ES ($) | 
+|---|---|---|
+| 95% | 213,836.00 | 694,018.19 |
+| 99% | 866,860.00 | 2,755,088.59 | 
 
 ## Figures
 
-(images)
+- Portfolio loss distribution 
+  ![Loss Disitribution](figures/loss_distribution.png)
 
+- Heatmap showing ratings migration across 1 year
+  ![Heatmap](figures/migration_heatmap.png)
 ## Future Improvements
 
 ...
