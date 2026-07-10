@@ -56,7 +56,7 @@ CreditMetrics-Python/
 │
 ├── src/
 │   ├── __init__.py
-│   │   config.py
+│   ├── config.py
 │   ├── portfolio.py
 │   ├── risk_metrics.py
 │   ├── simulation.py
