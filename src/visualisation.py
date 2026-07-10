@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-def plot_loss_distribution(losses):
+def plot_loss_distribution(losses, results):
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
-    fig.suptitle('CreditMetrics: Correlated Returns with Variable Recovery (2.1)', 
+    fig.suptitle('CreditMetrics: Correlated Returns with Variable Recovery (Base)', 
                  fontsize=16, fontweight='bold')
  
     # Plot 1: Loss distribution
@@ -14,7 +14,7 @@ def plot_loss_distribution(losses):
                label=f"VaR99: ${results[0.99]['VaR']:,.0f}")
     ax.set_xlabel('Portfolio Loss ($)', fontsize=11, fontweight='bold')
     ax.set_ylabel('Frequency', fontsize=11, fontweight='bold')
-    ax.set_title('Portfolio Loss Distribution (50K Scenarios) (2.1)', fontsize=12, fontweight='bold')
+    ax.set_title('Portfolio Loss Distribution (50K Scenarios) (Base)', fontsize=12, fontweight='bold')
     ax.legend(fontsize=10)
     ax.grid(True, alpha=0.3)
     ax.ticklabel_format(style='plain', axis='x')
@@ -29,7 +29,7 @@ def plot_loss_distribution(losses):
                label=f"ES95: ${results[0.95]['ES']:,.0f}")
     ax.set_xlabel('Portfolio Loss ($)', fontsize=11, fontweight='bold')
     ax.set_ylabel('Frequency', fontsize=11, fontweight='bold')
-    ax.set_title('Tail Risk (Worst 5%) (2.1)', fontsize=12, fontweight='bold')
+    ax.set_title('Tail Risk (Worst 5%) (Base)', fontsize=12, fontweight='bold')
     ax.legend(fontsize=10)
     ax.grid(True, alpha=0.3)
     ax.ticklabel_format(style='plain', axis='x')
@@ -48,7 +48,7 @@ def plot_loss_distribution(losses):
                    alpha=0.85, edgecolor='black', linewidth=1.5)
     
     ax.set_ylabel('Loss Amount ($)', fontsize=11, fontweight='bold')
-    ax.set_title('Absolute VaR vs Expected Shortfall (2.1)', fontsize=12, fontweight='bold')
+    ax.set_title('Absolute VaR vs Expected Shortfall (Base)', fontsize=12, fontweight='bold')
     ax.set_xticks(x)
     ax.set_xticklabels(conf_labels)
     ax.legend(fontsize=10)
@@ -76,12 +76,12 @@ def plot_loss_distribution(losses):
     ax.axhline(99, color='darkred', linestyle=':', linewidth=1.5, alpha=0.5)
     ax.set_xlabel('Portfolio Loss ($)', fontsize=11, fontweight='bold')
     ax.set_ylabel('Cumulative Probability (%)', fontsize=11, fontweight='bold')
-    ax.set_title('Empirical CDF of Losses (2.1)', fontsize=12, fontweight='bold')
+    ax.set_title('Empirical CDF of Losses (Base)', fontsize=12, fontweight='bold')
     ax.legend(fontsize=10)
     ax.grid(True, alpha=0.3)
     ax.ticklabel_format(style='plain', axis='x')
     
     plt.tight_layout()
-    plt.savefig('creditmetrics_correlated.png', dpi=300, bbox_inches='tight')
-    print("  ✓ Saved: creditmetrics_correlated.png")
+    #plt.savefig('creditmetrics_correlated.png', dpi=300, bbox_inches='tight')
+    #print("  ✓ Saved: creditmetrics_correlated.png")
     plt.show()
