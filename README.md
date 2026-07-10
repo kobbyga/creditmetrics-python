@@ -25,6 +25,7 @@ The model follows the CreditMetrics methodology by:
 5. Calculate implied loan forward values (default or non-default)
 6. Aggregate to portfolio values
 7. Calculate Absolute VaR and Expected Shortfall
+8. Testing is done for simulation stability, and that all rows in transition matrix equal to 1
 
 ## Portfolio Construction
 
