@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 def plot_loss_distribution(losses, results):
     fig, axes = plt.subplots(2, 2, figsize=(15, 10))
