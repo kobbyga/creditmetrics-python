@@ -1,3 +1,5 @@
+import numpy as np
+
 def calculate_losses(portfolio_values, initial_portfolio_value):
     """
     Calculate portfolio losses (negative of returns).
