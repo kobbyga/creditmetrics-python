@@ -23,7 +23,7 @@ def generate_correlated_returns(num_scenarios, cholesky_matrix, num_bonds=3):
     
     return correlated_returns, uncorrelated_returns
 
- def map_returns_to_ratings(correlated_returns, rating_thresholds):
+def map_returns_to_ratings(correlated_returns, rating_thresholds):
     """
     Map correlated asset returns to rating states using proper CreditMetrics thresholds.
     
