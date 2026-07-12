@@ -69,9 +69,7 @@ CreditMetrics-Python/
 │
 ├── figures/
 │   ├── loss_distribution.png
-│   ├── migration_matrix.png
-│   ├── convergence.png
-│   └── portfolio_summary.png
+│   └── migration_heatmap.png
 │
 └── docs/
     ├── methodology.pdf
