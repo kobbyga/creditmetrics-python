@@ -72,7 +72,6 @@ CreditMetrics-Python/
 │   └── migration_heatmap.png
 │
 └── docs/
-    ├── methodology.pdf
     └── assumptions.md
 ```
 
