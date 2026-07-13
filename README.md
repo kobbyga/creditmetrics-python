@@ -107,4 +107,7 @@ CreditMetrics-Python/
   ![Heatmap](figures/migration_heatmap.png)
 ## Future Improvements
 
-...
+- CDS implied PDs to replace historical transition matrices with market-implied default probabilities, making the model forward-looking
+- Incremental VaR calculation to formally decompose portfolio risk to individual obligors
+- Multi period horizon simulation to model the evolution of credit quality over 3–5 years
+- Interactive dashboard using Plotly or Streamlit to allow scenario inputs to be adjusted dynamically
