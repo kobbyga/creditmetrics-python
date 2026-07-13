@@ -80,7 +80,7 @@ CreditMetrics-Python/
 
 1. Clone the repo and create a virtual environment:
    ```bash
-   git clone https://github.com/kobbyga/creditmetrics-python.git
+   git clone https://github.com/kobbyga/Credit-Portfolio-Risk---Credit-Metrics.git
    cd creditmetrics-python
    python -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
