@@ -101,7 +101,7 @@ CreditMetrics-Python/
 ## Figures
 
 - Portfolio loss distribution 
-  ![Loss Disitribution](figures/loss_distribution.png)
+  ![Loss Distribution](figures/loss_distribution.png)
 
 - Heatmap showing ratings migration across 1 year
   ![Heatmap](figures/migration_heatmap.png)
